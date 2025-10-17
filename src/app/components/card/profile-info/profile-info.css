@@ -1,0 +1,42 @@
+.profile-info {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.profile-info h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333333;
+}
+
+.profile-info p {
+  margin: 5px 0;
+  color: #666666;
+}
+
+.skills {
+  margin-top: 15px;
+}
+
+.skills h3 {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  color: #555555;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.skills li {
+  background-color: #e0e0e0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}

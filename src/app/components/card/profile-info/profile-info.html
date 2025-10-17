@@ -1,1 +1,11 @@
-<p>profile-info works!</p>
+<div class="profile-info">
+  <h2>{{ nome }}</h2>
+  <p>{{ titulo }}</p>
+  <p>{{ descricao }}</p>
+  <div class="skills">
+    <h3>Habilidades</h3>
+    <ul>
+      <li *ngFor="let skill of skills">{{ skill }}</li>
+    </ul>
+  </div>
+</div>
