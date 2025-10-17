@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './profile-image.css'
 })
 export class ProfileImage {
-
+  imageUrl: string = 'https://avatars.githubusercontent.com/u/69821551?v=4';
 }
