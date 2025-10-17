@@ -1,59 +1,52 @@
-# CartaoVisitaAngular
+# Cartão de Visita em Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.5.
+Este é um projeto simples desenvolvido como parte de um exercício do Módulo 4 do curso de Angular da ADA. O objetivo foi criar um componente de "cartão de visita" que exibe informações de perfil estáticas.
 
-## Development server
+O projeto foi desenvolvido utilizando Angular e demonstra conceitos básicos da framework, como a criação de componentes, data binding e o uso de diretivas estruturais como `*ngFor`.
 
-To start a local development server, run:
+## 🖼️ Screenshot
 
+<p align="center"><img src="./src/assets/images/screenshot.png" alt="Screenshot do Projeto"></p>
+
+## ✨ Tecnologias Utilizadas
+
+- **Angular**: Framework principal para a construção da aplicação.
+- **TypeScript**: Superset do JavaScript utilizado pelo Angular.
+- **HTML & CSS**: Estrutura e estilização do componente.
+
+## 📋 Pré-requisitos
+
+Antes de começar, você vai precisar ter as seguintes ferramentas instaladas em sua máquina:
+
+- **Node.js**: Versão **v20.x** ou superior.
+- **Angular CLI**: Ferramenta de linha de comando do Angular.
+
+Você pode instalar o Angular CLI globalmente com o comando:
 ```bash
-ng serve
+npm install -g @angular/cli
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🚀 Como Executar o Projeto
 
-## Code scaffolding
+1. **Clone o repositório:**
+   ```bash
+   git clone <url-do-seu-repositorio>
+   ```
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+2. **Acesse a pasta do projeto:**
+   ```bash
+   cd cartao-visita-angular
+   ```
 
-```bash
-ng generate component component-name
-```
+3. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+4. **Execute o servidor de desenvolvimento:**
+   ```bash
+   ng serve
+   ```
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+5. **Acesse a aplicação:**
+   Abra seu navegador e acesse `http://localhost:4200/`. A aplicação será recarregada automaticamente se você alterar qualquer um dos arquivos de origem.
